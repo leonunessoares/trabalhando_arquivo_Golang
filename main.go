@@ -26,7 +26,7 @@ func criar () {
         var file, err = os.Create(path)
         if err != nil {
             log.Fatal(err)
-        }
+        } 
         defer file.Close()
     }
 }
